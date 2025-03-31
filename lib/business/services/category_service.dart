@@ -1,4 +1,4 @@
-import 'package:blog/domain/models/category.dart';
+import '../models/category.dart';
 
 abstract class CategoryService {
   Future<List<Category>> recupererListCategories();

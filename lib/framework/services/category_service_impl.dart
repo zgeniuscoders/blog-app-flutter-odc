@@ -1,7 +1,7 @@
-import 'package:blog/domain/models/category.dart';
-import 'package:blog/domain/services/category_service.dart';
+import '../../business/models/category.dart';
+import '../../business/services/category_service.dart';
 
-class CategoryServiceImpl extends CategoryService{
+class CategoryServiceImpl extends CategoryService {
   @override
   Future<void> creerCategorie() {
     // TODO: implement creerCategorie
@@ -13,5 +13,4 @@ class CategoryServiceImpl extends CategoryService{
     // TODO: implement recupererListCategories
     throw UnimplementedError();
   }
-
 }

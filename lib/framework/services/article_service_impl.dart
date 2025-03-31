@@ -1,7 +1,7 @@
-import 'package:blog/domain/models/article.dart';
-import '../../domain/services/article_service.dart';
+import '../../business/models/article.dart';
+import '../../business/services/article_service.dart';
 
-class ArticleServiceImpl extends ArticleService{
+class ArticleServiceImpl extends ArticleService {
   @override
   Future<void> creerArticle() {
     // TODO: implement creerArticle
@@ -13,5 +13,4 @@ class ArticleServiceImpl extends ArticleService{
     // TODO: implement recupererListArticles
     throw UnimplementedError();
   }
-
 }
